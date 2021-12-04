@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+body{
+background-image: url("../IMG/pexels-markus-spiske-1089438.jpg");
+}
+
+header{
+    background-color: #272727;
+    color: rgb(156, 255, 7);
+    width: 60%;
+    height: 5%;
+    text-align: center;
+    padding: 1%;
+    margin: 0 auto;
+    border-radius: 0 0 85px 85px;
+    border: 5px solid black;
+    border-top: none;
+}
+
+h1{
+    font-family: 'Share Tech', sans-serif;
+    font-size: 450%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.display1e2{
+    margin: 25px auto;
+    padding: 1.5%;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    color: rgb(156, 255, 7);
+    background-color: #272727 ;
+    font-family: 'Share Tech', sans-serif;
+    font-size: larger;
+    border-radius: 85px ;
+    border: 5px solid black;
+}
+
+#mensagem{
+    padding:  15px;
+    margin: 20px;
+    font-family: 'Share Tech', sans-serif;
+    font-size: large;
+    width: 280px;
+}
+
+#select{
+    font-family: 'Share Tech', sans-serif;
+    padding: 20px;
+    font-size: large;
+    margin: 20px;
+    width: 290px;
+}
+
+.incremento{
+    margin: 20px;
+    display: none;
+}
+
+#numeroCesar{
+    margin: 0 auto;
+    padding: 15px;
+    width: 70px;
+    font-size: medium;
+    text-align: center;
+    font-style: 'Share Tech', sans-serif;
+    display: none;
+}
+
+.radio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    text-align: left;
+    width: 180px;
+
+}
+
+#codificar, #decodificar{
+    margin: 15px;
+}
+
+#submit{
+    margin: 20px;
+    padding: 1%;
+    font-family: 'Share Tech', sans-serif;
+    font-size: large;
+    height: 50px;
+    width: 280px;
+    border: 3px solid black;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+#submit:hover{
+    transform: scale(1.2);
+    background-color: rgb(192, 192, 192);
+}
+
+.hMensagem {
+    margin: 25px;
+}
+
+.pMensagem {
+    margin: 0 15px 15px 15px;
+}
+
+.footerContainer{
+    color: rgb(156, 255, 7);
+    background-color: #272727 ;
+    text-align: center;
+    font-family: 'Share Tech', sans-serif; 
+    margin-top: 15px;
+    padding: 0.5%;
+}
+
+.footerContainer a{
+    text-decoration: none;
+    color: rgb(156, 255, 7);
+
+}
+
+.footerContainer a:hover{
+    color: white;
+}
+
+/* footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+*/
+
