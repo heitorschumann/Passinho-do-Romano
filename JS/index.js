@@ -37,7 +37,7 @@ radioDecodificar.addEventListener("change", function(){
 function codificarCezar(){
     var conteudoMsg = mensagemText.value;
     var msgMinuscula = conteudoMsg.toLowerCase();
-    var n = Number(inputIncrementoCifra.value % 26);
+    var n = (Number(inputIncrementoCifra.value) % 26);
     var textoCodificadoCezar = '';
 
     for(var i = 0; i < msgMinuscula.length; i++){
@@ -58,11 +58,11 @@ function codificarCezar(){
 function decodificarCezar(){
     var conteudoMsg = mensagemText.value;
     var msgMinuscula = conteudoMsg.toLowerCase();
-    var n = Number(inputIncrementoCifra.value % 26);
+    var n = (Number(inputIncrementoCifra.value) % 26);
     var textoCodificadoCezar = '';
 
     for(var i = 0; i < msgMinuscula.length; i++){
-        for(var j = 0; j < alfabeto.length; j++){
+        for(var j = alfabeto.length - 1; j >= 0; j--){
             if(msgMinuscula[i] == alfabeto[j]){
                 textoCodificadoCezar += alfabeto[j - n];
                 break;
