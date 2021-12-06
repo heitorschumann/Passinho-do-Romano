@@ -10,7 +10,7 @@ header{
     width: 60%;
     height: 5%;
     text-align: center;
-    padding: 1%;
+    padding: 2%;
     margin: 0 auto;
     border-radius: 0 0 85px 85px;
     border: 5px solid black;
@@ -19,7 +19,7 @@ header{
 
 h1{
     font-family: 'Share Tech', sans-serif;
-    font-size: 450%;
+    font-size: 100px;
 }
 
 main{
@@ -31,7 +31,7 @@ main{
 }
 .display1e2{
     margin: 25px auto;
-    padding: 1.5%;
+    padding: 2%;
     height: 100%;
     width: 50%;
     text-align: center;
@@ -41,6 +41,10 @@ main{
     font-size: larger;
     border-radius: 85px ;
     border: 5px solid black;
+}
+
+h2{
+    margin: 15px;
 }
 
 #mensagem{
@@ -118,8 +122,9 @@ main{
     background-color: #272727 ;
     text-align: center;
     font-family: 'Share Tech', sans-serif; 
-    margin-top: 15px;
+    margin: 15px auto;
     padding: 0.5%;
+    width: 400px;
 }
 
 .footerContainer a{
@@ -132,10 +137,58 @@ main{
     color: white;
 }
 
-/* footer{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-}
-*/
+@media(max-width: 806px){
+    header{
+        padding: 50px;
+    }
 
+    .display1e2{
+        padding: 50px;
+    }
+}
+
+@media(max-width: 600px){
+    header{
+        width: 400px;
+    }
+
+    .display1e2{
+        width: 400px;
+    }
+}
+
+@media(max-width: 400px){
+    header{
+        padding: 50px;
+        width: 270px;
+    }
+
+    h1{
+        font-size: xx-large;
+    }
+
+    .display1e2{
+        width: 270px;
+    }
+
+    #mensagem{
+        width: 150px;
+        margin: 15px auto;
+    }
+
+    #select{
+        width: 150px;
+        margin: 15px auto;
+        font-size: small;
+    }
+
+    #submit{
+        width: 150px;
+        margin: 15px auto;
+        font-size: medium;
+    }
+
+    .footerContainer{
+        width: 190px;
+    }
+}
